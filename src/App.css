@@ -1,0 +1,66 @@
+#root {
+  background: #125B50;
+}
+.body {
+  display: block;
+  font-family: 'Roboto';
+  background-color: #F8B400;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.category {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 50%;
+}
+.category button {
+  background-color: #ffffff;
+  border: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.showNotice {
+  padding: 10px;
+}
+.fiel {
+  /* background-color: #FAF5E4; */
+}
+.fiel input {
+  width: 80%;
+  border: 0px;
+  padding: 10px;
+}
+.fiel button {
+  width: 20%;
+  padding: 10px;
+  border: 0;
+}
+.fiel ul {
+  padding-left: 0;
+}
+.fiel ul li {
+  padding: 20px;
+  list-style-type: none;
+  margin: 20px 0;
+  background-color: #FAF5E4; 
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 8fr 2fr;
+}
+.fiel ul li .button-action span {
+  text-align: center;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  padding: 25px
+}
+.button-action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
